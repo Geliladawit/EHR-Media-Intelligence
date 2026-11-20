@@ -1,0 +1,22 @@
+pydantic>=2.6,<3
+python-dotenv>=1.0,<2
+
+# Task 2
+fhir.resources==6.5.0
+
+# Task 3
+anthropic>=0.40,<1
+openai>=1.50,<2
+
+# Task 4
+sentence-transformers>=3.0,<4
+faiss-cpu>=1.8,<2
+numpy>=1.26,<3
+
+# API / serving
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+
+# Tests / tooling
+pytest>=8.0,<9
+faker>=25.0,<40
