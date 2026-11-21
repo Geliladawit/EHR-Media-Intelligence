@@ -5,6 +5,12 @@ imaging notes, discharge summaries, scanned note CSV exports), normalizes them t
 **HL7 FHIR R4**, generates **LLM clinical summaries**, and exposes a **semantic
 search UI** so clinicians can find relevant records in seconds.
 
+<img width="600" height="300" alt="Screenshot 2026-11-21 135741" src="https://github.com/user-attachments/assets/2b5aa367-7de1-4945-903d-4036028a53c3" />
+
+<img width="600" height="400" alt="Screenshot 2026-11-21 135852" src="https://github.com/user-attachments/assets/b8ddbf31-66f6-44cb-8e47-2fc9593fd346" />
+
+<img width="600" height="300" alt="Screenshot 2026-11-21 140002" src="https://github.com/user-attachments/assets/a6c67a53-a464-462d-a3a4-e178ee33b60c" />
+
 ## Architecture
 
 ```
