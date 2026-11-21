@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-fhir = ["fhir.resources==6.5.0"]
+fhir = ["fhir.resources==7.1.0"]
 llm = ["anthropic>=0.40,<1", "openai>=1.50,<2"]
 search = ["sentence-transformers>=3.0,<4", "faiss-cpu>=1.8,<2", "numpy>=1.26,<3"]
 api = ["fastapi>=0.115,<1", "uvicorn[standard]>=0.30,<1"]

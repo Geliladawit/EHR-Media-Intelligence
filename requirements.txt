@@ -1,8 +1,8 @@
 pydantic>=2.6,<3
 python-dotenv>=1.0,<2
 
-# Task 2
-fhir.resources==6.5.0
+# Task 2 — 7.x required: 6.x is pydantic v1 only. R4B namespace = FHIR R4.
+fhir.resources==7.1.0
 
 # Task 3
 anthropic>=0.40,<1
