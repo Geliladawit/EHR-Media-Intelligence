@@ -6,6 +6,8 @@ venv/
 *.db
 *.faiss
 index.faiss
+.wheels/
+models/
 .pytest_cache/
 data/clean/
 *.egg-info/

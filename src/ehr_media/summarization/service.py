@@ -24,7 +24,7 @@ from ehr_media.summarization.summarizer import (
 MAX_CONTEXT_CHARS = 8000
 
 
-def _decode_attachment(entry: dict) -> str | None:
+def decode_document_text(entry: dict) -> str | None:
     """Pull decoded text out of a DocumentReference bundle entry."""
     res = entry.get("resource", {})
     if res.get("resourceType") != "DocumentReference":
@@ -57,7 +57,7 @@ def extract_patient_context(bundle: dict) -> tuple[str, str]:
         res = entry.get("resource", {})
         if res.get("resourceType") != "DocumentReference":
             continue
-        text = _decode_attachment(entry)
+        text = decode_document_text(entry)
         if text is None:
             continue
         rtype = res.get("type", {}).get("text", "record")
